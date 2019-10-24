@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0759EAE2361E1DE001611E7 /* Munchie.png in Resources */ = {isa = PBXBuildFile; fileRef = F0759EAA2361E1DE001611E7 /* Munchie.png */; };
+		F0759EAF2361E1DE001611E7 /* Squido.png in Resources */ = {isa = PBXBuildFile; fileRef = F0759EAB2361E1DE001611E7 /* Squido.png */; };
+		F0759EB02361E1DE001611E7 /* Astro.png in Resources */ = {isa = PBXBuildFile; fileRef = F0759EAC2361E1DE001611E7 /* Astro.png */; };
+		F0759EB12361E1DE001611E7 /* Fluffy.png in Resources */ = {isa = PBXBuildFile; fileRef = F0759EAD2361E1DE001611E7 /* Fluffy.png */; };
 		F0A67E0D235F446A00DD51EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A67E0C235F446A00DD51EA /* AppDelegate.swift */; };
 		F0A67E0F235F446A00DD51EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A67E0E235F446A00DD51EA /* SceneDelegate.swift */; };
 		F0A67E11235F446A00DD51EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A67E10235F446A00DD51EA /* ViewController.swift */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F0759EAA2361E1DE001611E7 /* Munchie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Munchie.png; sourceTree = "<group>"; };
+		F0759EAB2361E1DE001611E7 /* Squido.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Squido.png; sourceTree = "<group>"; };
+		F0759EAC2361E1DE001611E7 /* Astro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Astro.png; sourceTree = "<group>"; };
+		F0759EAD2361E1DE001611E7 /* Fluffy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fluffy.png; sourceTree = "<group>"; };
 		F0A67E09235F446A00DD51EA /* SecondIOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondIOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0A67E0C235F446A00DD51EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0A67E0E235F446A00DD51EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +74,10 @@
 				F0A67E17235F446B00DD51EA /* LaunchScreen.storyboard */,
 				F0A67E1A235F446B00DD51EA /* Info.plist */,
 				F0A67E20235F4B0E00DD51EA /* Jokes.swift */,
+				F0759EAC2361E1DE001611E7 /* Astro.png */,
+				F0759EAD2361E1DE001611E7 /* Fluffy.png */,
+				F0759EAA2361E1DE001611E7 /* Munchie.png */,
+				F0759EAB2361E1DE001611E7 /* Squido.png */,
 			);
 			path = SecondIOSApp;
 			sourceTree = "<group>";
@@ -128,9 +140,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0759EAF2361E1DE001611E7 /* Squido.png in Resources */,
 				F0A67E19235F446B00DD51EA /* LaunchScreen.storyboard in Resources */,
 				F0A67E16235F446B00DD51EA /* Assets.xcassets in Resources */,
+				F0759EB12361E1DE001611E7 /* Fluffy.png in Resources */,
 				F0A67E14235F446A00DD51EA /* Main.storyboard in Resources */,
+				F0759EAE2361E1DE001611E7 /* Munchie.png in Resources */,
+				F0759EB02361E1DE001611E7 /* Astro.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
