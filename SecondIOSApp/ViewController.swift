@@ -25,6 +25,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tipLabel: UILabel!
     
+    //create a String that will store the calculated tip sent to the NewViewController
+    var calculatedTip = ""
+    
     //equivalent of the onCreate mehtod in Java Android classes
     //it's called when the sceen that it controls is accessed
     //initialization work is done in this method
@@ -78,6 +81,26 @@ class ViewController: UIViewController {
         }
         //convert the tip to a string and display it in label
         tipLabel.text = "Tip is $\(String(dTip))"
+        
+        
+        //stores the calculated tip in the String
+        calculatedTip = "Tip is $\(String(dTip))"
+        
+        //segue to the NewViewController
+        //this method requires that the prepare ,ethod be overriden
+        performSegue(withIdentifier: "GoToNewView", sender: nil)
+    }
+    
+    //this method creates an instance of the ViewController that's being segued to and it passes the ViewController the calculated tip
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //checking if we're segueing to the ViewController that has the identifier GoToNewView
+        if segue.identifier == "GoToNewView"{
+            //creating an instance of that ViewController
+            //checking if the segue's destination is castable to a NewViewController and casting it if it is, else return nil
+            let newViewController = segue.destination as? NewViewController
+            //setting the instance's tipToShow property eqaul to the calculated tip
+            newViewController?.tipToShow = calculatedTip
+        }
     }
 }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0222488236878D400752C70 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0222487236878D400752C70 /* NewViewController.swift */; };
+		F022248A2368812500752C70 /* NewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02224892368812500752C70 /* NewTableViewController.swift */; };
 		F0759EAE2361E1DE001611E7 /* Munchie.png in Resources */ = {isa = PBXBuildFile; fileRef = F0759EAA2361E1DE001611E7 /* Munchie.png */; };
 		F0759EAF2361E1DE001611E7 /* Squido.png in Resources */ = {isa = PBXBuildFile; fileRef = F0759EAB2361E1DE001611E7 /* Squido.png */; };
 		F0759EB02361E1DE001611E7 /* Astro.png in Resources */ = {isa = PBXBuildFile; fileRef = F0759EAC2361E1DE001611E7 /* Astro.png */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F0222487236878D400752C70 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		F02224892368812500752C70 /* NewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTableViewController.swift; sourceTree = "<group>"; };
 		F0759EAA2361E1DE001611E7 /* Munchie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Munchie.png; sourceTree = "<group>"; };
 		F0759EAB2361E1DE001611E7 /* Squido.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Squido.png; sourceTree = "<group>"; };
 		F0759EAC2361E1DE001611E7 /* Astro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Astro.png; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 				F0759EAD2361E1DE001611E7 /* Fluffy.png */,
 				F0759EAA2361E1DE001611E7 /* Munchie.png */,
 				F0759EAB2361E1DE001611E7 /* Squido.png */,
+				F0222487236878D400752C70 /* NewViewController.swift */,
+				F02224892368812500752C70 /* NewTableViewController.swift */,
 			);
 			path = SecondIOSApp;
 			sourceTree = "<group>";
@@ -159,6 +165,8 @@
 			files = (
 				F0A67E11235F446A00DD51EA /* ViewController.swift in Sources */,
 				F0A67E0D235F446A00DD51EA /* AppDelegate.swift in Sources */,
+				F022248A2368812500752C70 /* NewTableViewController.swift in Sources */,
+				F0222488236878D400752C70 /* NewViewController.swift in Sources */,
 				F0A67E21235F4B0E00DD51EA /* Jokes.swift in Sources */,
 				F0A67E0F235F446A00DD51EA /* SceneDelegate.swift in Sources */,
 			);
